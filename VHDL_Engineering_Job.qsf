@@ -1,0 +1,126 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+# Date created = 18:28:47  September 12, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		VHDL_Engineering_Job_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY VHDL_Engineering_Job
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:28:47  SEPTEMBER 12, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_M23 -to Key
+set_location_assignment PIN_E24 -to lysdiod_ut[3]
+set_location_assignment PIN_E25 -to lysdiod_ut[2]
+set_location_assignment PIN_E22 -to lysdiod_ut[1]
+set_location_assignment PIN_E21 -to lysdiod_ut[0]
+set_location_assignment PIN_Y23 -to SW[17]
+set_location_assignment PIN_Y24 -to SW[16]
+set_location_assignment PIN_AA22 -to SW[15]
+set_location_assignment PIN_AA23 -to SW[14]
+set_location_assignment PIN_AA24 -to SW[13]
+set_location_assignment PIN_AB23 -to SW[12]
+set_location_assignment PIN_AB24 -to SW[11]
+set_location_assignment PIN_AC24 -to SW[10]
+set_location_assignment PIN_AB25 -to SW[9]
+set_location_assignment PIN_AC25 -to SW[8]
+set_location_assignment PIN_AB26 -to SW[7]
+set_location_assignment PIN_AD26 -to SW[6]
+set_location_assignment PIN_AC26 -to SW[5]
+set_location_assignment PIN_AB27 -to SW[4]
+set_location_assignment PIN_AD27 -to SW[3]
+set_location_assignment PIN_AC27 -to SW[2]
+set_location_assignment PIN_AC28 -to SW[1]
+set_location_assignment PIN_AB28 -to SW[0]
+set_location_assignment PIN_Y2 -to sys_clk
+set_location_assignment PIN_D12 -to VGA_B[7]
+set_location_assignment PIN_D11 -to VGA_B[6]
+set_location_assignment PIN_C12 -to VGA_B[5]
+set_location_assignment PIN_A11 -to VGA_B[4]
+set_location_assignment PIN_B11 -to VGA_B[3]
+set_location_assignment PIN_C11 -to VGA_B[2]
+set_location_assignment PIN_A10 -to VGA_B[1]
+set_location_assignment PIN_B10 -to VGA_B[0]
+set_location_assignment PIN_F11 -to VGA_BLANK_N
+set_location_assignment PIN_A12 -to VGA_CLK
+set_location_assignment PIN_C9 -to VGA_G[7]
+set_location_assignment PIN_F10 -to VGA_G[6]
+set_location_assignment PIN_B8 -to VGA_G[5]
+set_location_assignment PIN_C8 -to VGA_G[4]
+set_location_assignment PIN_H12 -to VGA_G[3]
+set_location_assignment PIN_F8 -to VGA_G[2]
+set_location_assignment PIN_G11 -to VGA_G[1]
+set_location_assignment PIN_G8 -to VGA_G[0]
+set_location_assignment PIN_G13 -to VGA_HS
+set_location_assignment PIN_H10 -to VGA_R[7]
+set_location_assignment PIN_H8 -to VGA_R[6]
+set_location_assignment PIN_J12 -to VGA_R[5]
+set_location_assignment PIN_G10 -to VGA_R[4]
+set_location_assignment PIN_F12 -to VGA_R[3]
+set_location_assignment PIN_D10 -to VGA_R[2]
+set_location_assignment PIN_E11 -to VGA_R[1]
+set_location_assignment PIN_E12 -to VGA_R[0]
+set_location_assignment PIN_C10 -to VGA_SYNC_N
+set_location_assignment PIN_C13 -to VGA_VS
+set_global_assignment -name ENABLE_DRC_SETTINGS ON
+set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH VHDL_Engineering_Job_vhd_tst -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME VHDL_Engineering_Job_vhd_tst -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id VHDL_Engineering_Job_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "1 ms" -section_id VHDL_Engineering_Job_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME VHDL_Engineering_Job_vhd_tst -section_id VHDL_Engineering_Job_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE ../VHDL_Engineering_Job/simulation/modelsim/VHDL_Engineering_Job.vht -section_id VHDL_Engineering_Job_vhd_tst
+set_global_assignment -name VHDL_FILE VHDL_Engineering_Job.vhd
+set_global_assignment -name VHDL_FILE VGA.vhd
+set_global_assignment -name VHDL_FILE PLL_design.vhd
+set_global_assignment -name VHDL_FILE Player_Interface.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

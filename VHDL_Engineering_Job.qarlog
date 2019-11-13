@@ -1,0 +1,19 @@
+Quartus II Archive log --	F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.qarlog
+
+Archive:	F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.qar
+Date:		Sun Sep 13 17:32:28 2015
+Quartus II 64-Bit		14.0.0 Build 200 06/17/2014 SJ Web Edition
+
+	=========== Files Selected: ===========
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/PLL_design.vhd
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/Player_Interface.vhd
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VGA.vhd
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.out.sdc
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.qpf
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.qsf
+F:/Course_Applied_Electronics/VHDL_Engineering_Job_ii/VHDL_Engineering_Job.vhd
+d:/altera/14.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
